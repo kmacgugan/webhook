@@ -1,7 +1,17 @@
 [
   {
     "id": "merge",
-    "execute-command": "/home/ec2-user/go/src/github.com/kmacgugan/webhook/script.sh",
-    "command-working-directory": "/home/ec2-user/kmacgugan/go/src/github.com/kmacgugan/webhook"
+    "execute-command": "/home/ec2-user/go/src/github.com/kmacgugan/webhook/scripts.sh",
+    "command-working-directory": "/home/ec2-user/go/src/github.com/kmacgugan/webhook",
+    "trigger-rule": {
+      "match": {
+        "type": "value",
+        "value": "a2-dev.test",
+        "parameter": {
+          "source": "payload",
+          "name": "automate_fqdn"
+        }
+      }
+    }
   }
 ]

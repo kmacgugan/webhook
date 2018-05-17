@@ -1,7 +1,7 @@
 [
   {
     "id": "merge",
-    "execute-command": "/Users/kmacgugan/go/src/github.com/adnanh/webhook/script.sh",
-    "command-working-directory": "/Users/kmacgugan/go/src/github.com/adnanh/webhook"
+    "execute-command": "/Users/kmacgugan/go/src/github.com/kmacgugan/webhook/script.sh",
+    "command-working-directory": "/Users/kmacgugan/go/src/github.com/kmacgugan/webhook"
   }
 ]
